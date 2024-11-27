@@ -1,0 +1,28 @@
+metric	dataset	qNet
+AUC1	chantest	0.625 (0.5  - 0.875)
+AUC2	chantest	1    (1    - 1   )
+Pairwise	chantest	0.778 (0.667 - 0.889)
+LR1plus	chantest	2    (1.5  - 2   )
+LR1minus	chantest	2e-06 (2e-06 - 0.5 )
+LR2plus	chantest	1e+06 (5e+05 - 1e+06)
+LR2minus	chantest	1e-06 (1e-06 - 0.5 )
+Mean_error	chantest	0.214 (0.207 - 0.222)
+AUC1_LOOCV	chantest	0.625
+AUC2_LOOCV	chantest	1   
+Pairwise_LOOCV	chantest	0.778
+LR1plus_LOOCV	chantest	2   
+LR1minus_LOOCV	chantest	2e-06
+LR2plus_LOOCV	chantest	1e+06
+LR2minus_LOOCV	chantest	1e-06
+Mean_error_LOOCV	chantest	0.214
+AUC1_training	chantest	1   
+AUC2_training	chantest	1   
+Pairwise_training	chantest	0.333
+LR1plus_training	chantest	1e+06
+LR1minus_training	chantest	1e-06
+LR2plus_training	chantest	1e+06
+LR2minus_training	chantest	1e-06
+Mean_error_training	chantest	0.0806
+Threshold1	chantest	3.48225742031321
+Threshold2	chantest	-2.29038162491728
+Normalized_logLik	chantest	-Inf
